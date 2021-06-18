@@ -6,6 +6,7 @@ This collection of Python scripts makes use of the excellent [Python-OBD](https:
 ```
 > pip install obd
 > pip install matplotlib
+> pip install pandas
 ```
 
 ## Utilities
