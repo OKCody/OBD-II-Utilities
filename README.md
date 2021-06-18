@@ -53,7 +53,7 @@ Clear diagnostic trouble code(s)? (yes/no) yes
 ```
 
 ### log.py
-Log.py is scans your vehicle for supported OBD-II commands and outputs their values in CSV format at a rate of about 2 Hz. This rate can be increased, but I found it to be sufficient for my needs. In an effort to keep this script simple it relies on standard output redirection (`>`) for writing data to a file. -not the most robust data collection technique, but for shade tree mechanics it should be sufficient. Run this script then let your vehicle idle or go for a drive. Use `ctrl + c` to interrupt its execution. Use chart.py and comp.py to review the collected data.
+Log.py scans your vehicle for supported OBD-II commands and outputs their values in CSV format at a rate of about 2 Hz. This rate can be increased, but I found it to be sufficient for my needs. In an effort to keep this script simple it relies on standard output redirection (`>`) for writing data to a file. -not the most robust data collection technique, but for shade tree mechanics it should be sufficient. Run this script then let your vehicle idle or go for a drive. Use `ctrl + c` to interrupt its execution. Use chart.py and comp.py to review the collected data.
 
 ```
 > python log.py > data.csv
@@ -75,7 +75,7 @@ Chart.py is useful for those times when you'd like to plot one parameter only or
 ![](img/INTAKE_PRESSURE_v_RPM.png)
 
 ### comp.py
-Comp.py is useful for comparing one parameter across two different datasets. For example, say you wanted to compare intake pressure values before and after a vehicles manifold air pressure sensor was replaced with respect to engine RPM. -accommodates an optional secondary y-axis; intake temperature shown.
+Comp.py compares one parameter across two different datasets. For example, say you wanted to compare intake pressure values before and after a vehicles manifold air pressure sensor was replaced with respect to engine RPM. -accommodates an optional secondary y-axis; intake temperature shown.
 
 `data_1 = 'log_before_MAP.csv'`
 
