@@ -2,6 +2,8 @@
 
 This collection of Python scripts makes use of the excellent [Python-OBD](https://github.com/brendan-w/python-OBD/) library. The Python-OBD library, thus these scripts, are designed to work with any ELM 327 OBD-II device. I used the [OBD Link EX](https://www.amazon.com/gp/product/B081VQVD3F/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) purchased from Amazon (ASIN: B081VQVD3F). Out of the box its USB cable was loose at the OBD-II end. It worked fine after disassembling and repinning the JST connector inside. 🙄
 
+Even though the Python-OBD library is exceedingly easy to use, I hope these scripts simplify the process of automotive troubleshooting. The last thing I want to do when I'm having car trouble is read matplotlib documentation.
+
 ## Dependencies
 ```
 > pip install obd
@@ -10,8 +12,6 @@ This collection of Python scripts makes use of the excellent [Python-OBD](https:
 ```
 
 ## Utilities
-
-Even though the Python-OBD library is exceedingly easy to use, I hope these scripts simplify the process of automotive troubleshooting. The last thing I want to do when I'm having car trouble is read matplotlib documentation.
 
 ### codes.py
 Codes.py returns a list of DTCs (diagnostic trouble codes) and other parameter values as a snapshot.  Adjust to taste.
