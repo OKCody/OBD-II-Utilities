@@ -77,7 +77,7 @@ Chart.py is useful for those times when you'd like to plot one parameter only or
 ![](img/INTAKE_PRESSURE_v_RPM.png)
 
 ### comp.py
-Comp.py compares one parameter across two different datasets. For example, say you wanted to compare intake pressure values before and after a vehicles manifold air pressure sensor was replaced with respect to engine RPM. -accommodates an optional secondary y-axis; intake temperature shown.
+Comp.py compares one parameter across two different datasets. For example, say you wanted to compare intake pressure values before and after a vehicle's manifold air pressure sensor was replaced with respect to engine RPM. -accommodates an optional secondary y-axis; intake temperature shown.
 
 `data_1 = 'log_before_MAP.csv'`
 
